@@ -1,0 +1,90 @@
+{
+  "ui": {
+    "pageTitle": "Cipulot EC Plate Maker",
+    "language": "Language",
+    "sourceStatus": "Official source",
+    "selectPcb": "Select PCB",
+    "clearSelection": "Clear selection",
+    "emptyTitle": "Select a PCB first",
+    "emptyDescription": "After selecting a PCB, this page will show all of its parameters. Every parameter must be chosen manually before the ZIP can be generated.",
+    "download": "Download",
+    "dxfFile": "DXF file",
+    "zipFile": "ZIP file",
+    "selectPcbFirst": "Select a PCB first",
+    "generateZip": "Generate ZIP",
+    "copyFilename": "Copy filename",
+    "copied": "Copied: {name}",
+    "incompleteStatus": "Incomplete: {selected}/{total} selected",
+    "completeHint": "Complete all parameters to generate",
+    "needCompleteZip": "Please complete all parameters before generating ZIP.",
+    "needCompleteCopy": "Please complete all parameters before copying the filename.",
+    "fetchProxy": "Fetching DXF, LICENSE, and spec PDF via Cloudflare...",
+    "fetchMirror": "Fetching DXF, LICENSE, and spec PDF from the local mirror...",
+    "generatingZip": "Generating ZIP...",
+    "generated": "Generated: {name}",
+    "copyBlocked": "This browser does not allow automatic copying. You can copy the DXF filename manually from the right panel.",
+    "downloadFailed": "Generation failed, please try again later.",
+    "pcbLabel": "PCB",
+    "outputLabel": "OUTPUT",
+    "configLabel": "EC PLATE",
+    "disclaimerShort": "Generated files may contain errors. Please verify outputs.",
+    "footerCopyright": "© 2026 CIPULOT",
+    "footerLicenseLabel": "CC BY-NC-SA 4.0",
+    "footerLicenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en",
+    "licenseTitle": "License Agreement",
+    "licenseMessage": "By continuing, you agree to the terms of the {linkStart}CC BY-NC-SA 4.0 License{linkEnd}.",
+    "licenseCancel": "Cancel",
+    "licenseAgree": "I agree"
+  },
+  "options": {
+    "capsLock": {
+      "0": "Normal Caps Lock",
+      "1": "Stepped Caps Lock"
+    },
+    "backspace": {
+      "0": "Unified Backspace",
+      "1": "Split Backspace"
+    },
+    "leftShift": {
+      "0": "Unified Left Shift",
+      "1": "Split Left Shift"
+    },
+    "rightShift60": {
+      "0": "Unified Right Shift",
+      "1": "Split Right Shift 1.75U | 1U",
+      "2": "Split Right Shift 1U | 1.75U"
+    },
+    "rightShiftAlice": {
+      "0": "Unified Right Shift",
+      "1": "Split Right Shift"
+    },
+    "enter": {
+      "0": "ANSI",
+      "1": "ISO"
+    },
+    "switchType": {
+      "General_OEM_Style": "General OEM-Style",
+      "Dynacap_Style": "Dynacap Style"
+    }
+  },
+  "fieldLabels": {
+    "Base Board": "Base Board",
+    "Enter": "Enter",
+    "Bottom Row": "Bottom Row",
+    "Split Keys": "Split Keys",
+    "Switch Type": "Switch Type",
+    "F-Row": "F-Row",
+    "Left Spacebar": "Left Spacebar",
+    "Base Board / Install": "Base Board / Install"
+  },
+  "groupLabels": {
+    "Base Board": "Base Board",
+    "Enter": "Enter",
+    "Bottom Row": "Bottom Row",
+    "Split Keys": "Split Keys",
+    "Switch Type": "Switch Type",
+    "F-Row / Enter": "F-Row / Enter",
+    "Left Spacebar": "Left Spacebar"
+  },
+  "dynamicTranslations": []
+}

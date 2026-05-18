@@ -1,0 +1,127 @@
+{
+  "ui": {
+    "pageTitle": "Cipulot EC 플레이트 메이커",
+    "language": "언어",
+    "sourceStatus": "공식 파일",
+    "selectPcb": "PCB 선택",
+    "clearSelection": "선택 지우기",
+    "emptyTitle": "먼저 PCB를 선택하세요",
+    "emptyDescription": "PCB를 선택하면 해당 보드의 모든 항목이 표시됩니다. ZIP을 생성하려면 모든 항목을 수동으로 선택해야 합니다.",
+    "download": "다운로드",
+    "dxfFile": "DXF 파일",
+    "zipFile": "ZIP 파일",
+    "selectPcbFirst": "먼저 PCB를 선택하세요",
+    "generateZip": "ZIP 생성",
+    "copyFilename": "파일명 복사",
+    "copied": "복사됨: {name}",
+    "incompleteStatus": "미완료: {selected}/{total}개 선택됨",
+    "completeHint": "모든 항목을 선택하면 생성할 수 있습니다",
+    "needCompleteZip": "ZIP을 생성하기 전에 모든 항목을 선택하세요.",
+    "needCompleteCopy": "파일명을 복사하기 전에 모든 항목을 선택하세요.",
+    "fetchProxy": "Cloudflare를 통해 DXF, LICENSE, 사양 PDF를 가져오는 중...",
+    "fetchMirror": "로컬 미러에서 DXF, LICENSE, 사양 PDF를 가져오는 중...",
+    "generatingZip": "ZIP 생성 중...",
+    "generated": "생성됨: {name}",
+    "copyBlocked": "이 브라우저에서는 자동 복사가 허용되지 않습니다. 오른쪽의 DXF 파일명을 수동으로 복사할 수 있습니다.",
+    "downloadFailed": "생성에 실패했습니다. 잠시 후 다시 시도하세요.",
+    "pcbLabel": "PCB",
+    "outputLabel": "출력",
+    "configLabel": "EC PLATE",
+    "disclaimerShort": "생성된 파일에 오류가 있을 수 있습니다. 확인하세요.",
+    "footerCopyright": "© 2026 CIPULOT",
+    "footerLicenseLabel": "CC BY-NC-SA 4.0",
+    "footerLicenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.ko",
+    "licenseTitle": "라이선스 동의",
+    "licenseMessage": "계속하면 {linkStart}CC BY-NC-SA 4.0 라이선스{linkEnd} 의 조건에 동의하는 것입니다.",
+    "licenseCancel": "취소",
+    "licenseAgree": "동의합니다"
+  },
+  "options": {
+    "capsLock": {
+      "0": "일반 Caps Lock",
+      "1": "스텝형 Caps Lock"
+    },
+    "backspace": {
+      "0": "일반 Backspace",
+      "1": "분할 Backspace"
+    },
+    "leftShift": {
+      "0": "일반 왼쪽 Shift",
+      "1": "분할 왼쪽 Shift"
+    },
+    "rightShift60": {
+      "0": "일반 오른쪽 Shift",
+      "1": "분할 오른쪽 Shift 1.75U | 1U",
+      "2": "분할 오른쪽 Shift 1U | 1.75U"
+    },
+    "rightShiftAlice": {
+      "0": "일반 오른쪽 Shift",
+      "1": "분할 오른쪽 Shift"
+    },
+    "enter": {
+      "0": "ANSI",
+      "1": "ISO"
+    },
+    "switchType": {
+      "General_OEM_Style": "일반 OEM 스타일",
+      "Dynacap_Style": "Dynacap 스타일"
+    }
+  },
+  "fieldLabels": {
+    "Base Board": "하우징 / 장착홀",
+    "Enter": "엔터 타입",
+    "Bottom Row": "하단열",
+    "Split Keys": "분할 키",
+    "Switch Type": "스위치 타입",
+    "F-Row": "F열",
+    "Left Spacebar": "왼쪽 스페이스바",
+    "Base Board / Install": "하우징 / 장착홀"
+  },
+  "groupLabels": {
+    "Base Board": "하우징 / 장착홀",
+    "Enter": "엔터 타입",
+    "Bottom Row": "하단열",
+    "Split Keys": "분할 키",
+    "Switch Type": "스위치 타입",
+    "F-Row / Enter": "F열 / 엔터",
+    "Left Spacebar": "왼쪽 스페이스바"
+  },
+  "dynamicTranslations": [
+    ["EC60X & EC60X SE - Tray Mount", "EC60X / EC60X SE - 트레이 마운트"],
+    ["TGR 910 (REQUIRES EC65X Rev 1.3 or higher OR Dyna65)", "TGR 910(EC65X Rev 1.3 이상 또는 Dyna65 필요)"],
+    ["Dolice (NOTE: must use the EC Alice X PCB)", "Dolice(주의: EC Alice X PCB를 사용해야 합니다)"],
+    ["General OEM-Style", "일반 OEM 스타일"],
+    ["Dynacap Style", "Dynacap 스타일"],
+    ["Unified Left Shift", "일반 왼쪽 Shift"],
+    ["Split Left Shift", "분할 왼쪽 Shift"],
+    ["Unified Right Shift", "일반 오른쪽 Shift"],
+    ["Split Right Shift 1.75U | 1U", "분할 오른쪽 Shift 1.75U | 1U"],
+    ["Split Right Shift 1U | 1.75U", "분할 오른쪽 Shift 1U | 1.75U"],
+    ["Split Right Shift", "분할 오른쪽 Shift"],
+    ["Unified Backspace", "일반 Backspace"],
+    ["Split Backspace", "분할 Backspace"],
+    ["Normal Caps Lock", "일반 Caps Lock"],
+    ["Stepped Caps Lock", "스텝형 Caps Lock"],
+    ["6U HHKB 2-Way Split (2U Housing)", "6U HHKB 2분할(2U 하우징)"],
+    ["6U HHKB 2-Way Split (3U Stabs)", "6U HHKB 2분할(3U 스태브)"],
+    ["6U HHKB 3-Way Split", "6U HHKB 3분할"],
+    ["6U 2-Way Split (2U Housing)", "6U 2분할(2U 하우징)"],
+    ["6U 2-Way Split (3U Stabs)", "6U 2분할(3U 스태브)"],
+    ["6U 3-Way Split", "6U 3분할"],
+    ["7U (6U Stab)", "7U(6U 스태브)"],
+    ["7U WKL (6U Stab)", "7U WKL(6U 스태브)"],
+    ["7U HHKB (6U Stab)", "7U HHKB(6U 스태브)"],
+    ["Left Spacebar 2.25U", "왼쪽 스페이스바 2.25U"],
+    ["Left Spacebar 2U", "왼쪽 스페이스바 2U"],
+    ["F13 only!", "F13 전용!"],
+    ["REQUIRES EC65X Rev 1.3 or higher OR Dyna65", "EC65X Rev 1.3 이상 또는 Dyna65 필요"],
+    ["NOTE: must use the EC Alice X PCB", "주의: EC Alice X PCB를 사용해야 합니다"],
+    ["Tray Mount", "트레이 마운트"],
+    ["Housing", "하우징"],
+    ["Stabs", "스태브"],
+    ["Split", "분할"],
+    ["Unified", "일반"],
+    ["Normal", "일반"],
+    ["Stepped", "스텝형"]
+  ]
+}

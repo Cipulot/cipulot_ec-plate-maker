@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CIPULOT EC Plate Maker</title>
+  <link rel="stylesheet" href="./cipulot_ec-plate-maker_files/styles.css">
+</head>
+
+<body>
+  <div class="dot-field" aria-hidden="true"></div>
+  <header class="topbar">
+    <div class="brand-lockup">
+      <div class="brand-logos" aria-label="CIPULOT">
+        <span class="brand-logo-chip brand-logo-chip-icon">
+          <img src="./cipulot_ec-plate-maker_files/cipulot-logo.webp" alt="CIPULOT">
+        </span>
+      </div>
+      <div>
+        <h1 id="pageTitle">CIPULOT EC Plate Maker</h1>
+      </div>
+    </div>
+    <div class="topbar-tools">
+      <label class="language-switcher" for="languageSelect">
+        <span id="languageLabel">Language</span>
+        <select id="languageSelect" aria-label="Language selector"></select>
+      </label>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <section class="pcb-rail" aria-labelledby="pcbTitle">
+      <div class="section-heading">
+        <p class="eyebrow">PCB</p>
+        <h2 id="pcbTitle">Select PCB</h2>
+      </div>
+      <div class="pcb-list" id="pcbList">
+        <button class="pcb-button " type="button" data-config-id="ec60x-se">
+          <span class="option-layout">EC 60X SE</span>
+          <span class="option-pcb-name-list">60% EC PCB</span>
+        </button>
+
+        <button class="pcb-button " type="button" data-config-id="ec65x">
+          <span class="option-layout">EC65X</span>
+          <span class="option-pcb-name-list">65% EC PCB</span>
+        </button>
+
+        <button class="pcb-button " type="button" data-config-id="ec-tkl-x-se">
+          <span class="option-layout">EC TKL X SE</span>
+          <span class="option-pcb-name-list">TKL EC PCB</span>
+        </button>
+
+        <button class="pcb-button " type="button" data-config-id="ec-alice-x">
+          <span class="option-layout">EC Alice X</span>
+          <span class="option-pcb-name-list">Alice EC PCB</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="config-area" aria-live="polite">
+      <div class="config-head">
+        <div>
+          <h2 id="activeTitle">Select PCB</h2>
+        </div>
+        <button class="ghost-button" type="button" id="resetButton" disabled>Clear selection</button>
+      </div>
+
+      <form id="configForm" class="config-form">
+        <div class="empty-state">
+          <p class="empty-title">Select a PCB first</p>
+          <p>After selecting a PCB, this page will show all of its parameters. Every parameter must be chosen manually
+            before the ZIP can be generated.</p>
+        </div>
+      </form>
+    </section>
+
+    <aside class="download-panel" aria-labelledby="downloadTitle">
+      <div class="section-heading">
+        <p class="eyebrow">OUTPUT</p>
+        <h2 id="downloadTitle">Download</h2>
+      </div>
+      <dl class="file-preview">
+        <div>
+          <dt id="dxfLabel">DXF file</dt>
+          <dd id="dxfName">Select a PCB first</dd>
+        </div>
+        <div>
+          <dt id="zipLabel">ZIP file</dt>
+          <dd id="zipName">Select a PCB first</dd>
+        </div>
+      </dl>
+      <div class="download-actions">
+        <button class="primary-button" type="button" id="downloadButton" disabled>Generate ZIP</button>
+        <button class="ghost-button" type="button" id="copyButton" disabled>Copy filename</button>
+      </div>
+      <p class="download-message" id="downloadMessage" role="status"></p>
+      <div class="disclaimer-section" id="sourceLinks"></div>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <span><a id="footerCopyright" href="https://lusvsolutions.com" target="_blank" rel="noopener noreferrer">© 2026 CIPULOT</a></span>
+    <span><a id="footerLicense" href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en" target="_blank"
+        rel="noopener noreferrer">CC BY-NC-SA 4.0</a></span>
+  </footer>
+
+  <script src="./cipulot_ec-plate-maker_files/jszip.min.js"></script>
+  <script src="./cipulot_ec-plate-maker_files/app.js"></script>
+
+</body>
+
+</html>
