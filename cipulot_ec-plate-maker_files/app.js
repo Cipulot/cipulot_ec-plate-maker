@@ -1,5 +1,6 @@
 const ASSET_MODE = globalThis.EC_PLATE_ASSET_MODE || "mirror";
 const MIRROR_BASE = globalThis.EC_PLATE_MIRROR_BASE || globalThis.EC_PLATE_ASSET_BASE || "./mirror";
+const REPO_BRANCH = globalThis.EC_PLATE_REPO_BRANCH || "main";
 let mirrorManifestPromise = null;
 const bundleCache = new Map();
 
@@ -610,7 +611,8 @@ function joinMirrorUrl(path) {
 }
 
 function buildSourceUrl(config, sourcePath) {
-  return joinMirrorUrl(`${config.repo}/${sourcePath}`);
+  const repoSegment = ASSET_MODE === "github-proxy" ? `${config.repo}/${REPO_BRANCH}` : config.repo;
+  return joinMirrorUrl(`${repoSegment}/${sourcePath}`);
 }
 
 function renderPcbList() {
