@@ -64,7 +64,7 @@
     },
     "switchType": {
       "General_OEM_Style": "通用 OEM 风格",
-      "Dynacap_Style": "Dynacap 风格"
+      "Dynacap_Style": "DynaCap 风格"
     }
   },
   "fieldLabels": {
@@ -91,7 +91,7 @@
     ["TGR 910 (REQUIRES EC65X Rev 1.3 or higher OR Dyna65)", "TGR 910（需要 EC65X Rev 1.3 或更高版本或 Dyna65）"],
     ["Dolice (NOTE: must use the EC Alice X PCB)", "Dolice（注意：必须使用 EC Alice X PCB）"],
     ["General OEM-Style", "通用 OEM 风格"],
-    ["Dynacap Style", "Dynacap 风格"],
+    ["Dynacap Style", "DynaCap 风格"],
     ["Unified Left Shift", "普通左 Shift"],
     ["Split Left Shift", "分裂左 Shift"],
     ["Unified Right Shift", "普通右 Shift"],
