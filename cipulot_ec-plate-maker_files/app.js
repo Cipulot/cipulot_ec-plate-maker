@@ -272,6 +272,8 @@ const plateConfigs = [
           { value: "Type_B", en: "Type-B" },
           { value: "Vero_V2", en: "Vero V2" },
           { value: "Ramune60", en: "Ramune60" },
+          { value: "Pro2K", en: "Pro2K" },
+          { value: "Tycan", en: "Tycan" },
         ],
       },
       enter: { en: "Enter", layout: "dense", options: commonOptions.enter },
