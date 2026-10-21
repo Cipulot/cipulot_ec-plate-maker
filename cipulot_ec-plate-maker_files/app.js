@@ -250,6 +250,7 @@ const plateConfigs = [
           { value: "Dalco_959", en: "Dalco 959" },
           { value: "EC60X", en: "EC60X & EC60X SE" },
           { value: "EC60X_Tray_Mount", en: "EC60X & EC60X SE - Tray Mount" },
+          { value: "ECRX", en: "ECRX" },
           { value: "Frog_Mini", en: "Frog Mini" },
           { value: "H2H", en: "H2H" },
           { value: "Hiya", en: "Hiya" },
