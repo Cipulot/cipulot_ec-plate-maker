@@ -261,6 +261,7 @@ const plateConfigs = [
           { value: "Magic3_60", en: "Magic3 60" },
           { value: "Mao_HHKB", en: "Mao HHKB" },
           { value: "Pangea_Mini", en: "Pangea Mini" },
+          { value: "Phi60", en: "Phi60" },
           { value: "Polaris", en: "Polaris" },
           { value: "Pro2K", en: "Pro2K" },
           { value: "Ramune60", en: "Ramune60" },
